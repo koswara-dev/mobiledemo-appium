@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T16:41:58 WIB" name="Default suite" finished-at="2022-02-11T16:43:20 WIB" duration-ms="81606">
+    <groups>
+    </groups>
+    <test started-at="2022-02-11T16:41:58 WIB" name="Default test" finished-at="2022-02-11T16:43:20 WIB" duration-ms="81606">
+      <class name="com.juaracoding.mobiledemo.AppTesting">
+        <test-method is-config="true" signature="setupDeviceCapabilities()[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a]" started-at="2022-02-11T16:41:58 WIB" name="setupDeviceCapabilities" finished-at="2022-02-11T16:41:58 WIB" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDeviceCapabilities -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a]" started-at="2022-02-11T16:41:58 WIB" name="init" finished-at="2022-02-11T16:41:58 WIB" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="spinUpAndroidDriver()[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a]" started-at="2022-02-11T16:41:58 WIB" name="spinUpAndroidDriver" finished-at="2022-02-11T16:42:26 WIB" duration-ms="27388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinUpAndroidDriver -->
+        <test-method signature="test01SearchFunction()[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a]" started-at="2022-02-11T16:42:26 WIB" name="test01SearchFunction" description="Search Function" finished-at="2022-02-11T16:42:34 WIB" duration-ms="8235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01SearchFunction -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a]" started-at="2022-02-11T16:42:34 WIB" name="getResult" finished-at="2022-02-11T16:42:34 WIB" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test01SearchFunction status=SUCCESS method=AppTesting.test01SearchFunction()[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="spinUpAndroidDriver()[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a]" started-at="2022-02-11T16:42:34 WIB" name="spinUpAndroidDriver" finished-at="2022-02-11T16:42:51 WIB" duration-ms="16654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinUpAndroidDriver -->
+        <test-method signature="test02CheckoutProduct()[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a]" started-at="2022-02-11T16:42:51 WIB" name="test02CheckoutProduct" description="Checkout Product" finished-at="2022-02-11T16:43:19 WIB" duration-ms="28112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02CheckoutProduct -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a]" started-at="2022-02-11T16:43:19 WIB" name="getResult" finished-at="2022-02-11T16:43:19 WIB" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test02CheckoutProduct status=SUCCESS method=AppTesting.test02CheckoutProduct()[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endreport()[pri:0, instance:com.juaracoding.mobiledemo.AppTesting@69b2283a]" started-at="2022-02-11T16:43:19 WIB" name="endreport" finished-at="2022-02-11T16:43:20 WIB" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.juaracoding.mobiledemo.AppTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

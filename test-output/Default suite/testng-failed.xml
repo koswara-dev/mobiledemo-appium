@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.juaracoding.mobiledemo.AppTesting">
+        <methods>
+          <include name="endreport"/>
+          <include name="test02CheckoutProduct"/>
+          <include name="init"/>
+          <include name="getResult"/>
+          <include name="test01SearchFunction"/>
+          <include name="setupDeviceCapabilities"/>
+          <include name="spinUpAndroidDriver"/>
+        </methods>
+      </class> <!-- com.juaracoding.mobiledemo.AppTesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
